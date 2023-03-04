@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>wpm test</title>
+    </head>
+    <body>
+        <h1 style="font-size:100px; font-family:monospace;">WPM TEST</h1>
+        <b>
+        <table id="words">
+            <tr>
+                <td id="text" class="suggestion">...</td>
+                <td id="text1" class="suggestion" style="opacity:0.6">...</td>
+                <td id="text2" class="suggestion" style="opacity:0.3">...</td>
+            </tr>
+        </table></b>
+        <p></p>
+        <input id="input" placeholder="start typing..."><p></p>
+        <table id="stats" border = 0>
+            <tr>
+                <td id="count" class="stat" style="background-color:rgb(161, 55, 55);color:white;">wrong words: 0: 0</td>
+                <td id="correct" class="stat" style="background-color:rgb(69, 180, 119);color:white;">correct words: 0</td>
+            </tr>
+            <tr>
+                <td id="quote" class="stat">w/c: 0</td>
+                <td id="wpm" class="stat"></td>
+            </tr>
+            <tr>
+                <td id="quote2" class="stat">quote: 0%</td>
+                <td id="wps" class="stat">WPS: 0</td>
+            </tr>
+        </table>
+        <p></p><div id="timer">time left: 60</div>
+        <div id="k"></div>
+    </body>
+</html>
+
+<script src="script.js"></script>
